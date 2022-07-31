@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>One More❕</title>
+    </head>
+    <body>
+        Happily, I went to one more concert.
+    </body>
+    <form class="" action="mailto:stacyww27@gmail.com" method="post">
+
+
+        <br><br>
+        <label for="date">Concert Date: </label>
+        <input type="date" id="date" name="concert_date" value="">
+        <br><br>
+        <label for="location">Location: </label>
+        <input type="text" name="location" value="">
+        <br><br>
+        <label for="artists">Artists: </label>
+        <input type="text" name="artists" value="">
+        <br><br>
+        <label for="pieces">Pieces: </label>
+        <input type="text" name="pieces" value="">
+        <br><br>
+        <label for="rating">Overall Ratings</label>
+        <input type="range" name="ratelist" list="ratinglist" step="20">
+        <datalist id="ratinglist">
+        <option value="0" label=""></option>
+        <option value="20" label="⭐"</option>
+        <option value="40" label="⭐⭐"</option>
+        <option value="60" label="⭐⭐⭐"</option>
+        <option value="80" label="⭐⭐⭐⭐"</option>
+        <option value="100" label="⭐⭐⭐⭐⭐"></option>
+        </datalist>
+        <br><br>
+        <label for="Pictures">Proof: </label>
+        <input type="file" name="pictures" value="pictures" accept="image/jpeg, image/png">
+        <br><br>
+        <input type="submit" value="submit">
+    </form>
+</html>
